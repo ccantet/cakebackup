@@ -1,30 +1,23 @@
 <?php
-
 /**
- * MySQL layer for DBO
+ * CakePHP Database Backup
  *
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
+ * Backups structure and data from cake's database.
+ * Usage:
+ * $ cake Backups.backup
+ * To backup all tables structure and data from default
+ * 
  * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
  * Redistributions of files must retain the above copyright notice.
  *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       Cake.Model.Datasource.Database
- * @since         CakePHP(tm) v 0.10.5.1790
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ * @copyright 2014
+ * @author    Cassandre CANTET
+ * @link      https://github.com/ccantet/cakebackup
+ * @package   plugins.Backups
+ * @license   MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 App::uses('MySQL', 'Model/Datasource/Database');
 
-/**
- * MySQL DBO driver object
- *
- * Provides connection and SQL generation for MySQL RDMS
- *
- * @package       Cake.Model.Datasource.Database
- */
 class MySQLPerso extends MySQL {
 
     public function createSchema($schema, $tableName = null) {

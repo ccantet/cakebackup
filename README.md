@@ -1,4 +1,4 @@
 cakebackup
 ==========
 
-Plugin poure CakePhP 2 afin de sauvegarder la base de données
+Plugin pour CakePhP 2 afin de sauvegarder la base de données

@@ -1,22 +1,16 @@
 <?php
-
 /**
  * CakePHP Database Backup
  *
  * Backups structure and data from cake's database.
- * Usage:
- * $ cake Backups.backup
- * To backup all tables structure and data from default
- *
- * TODO
- * Settings to choose datasource, table and output directory
  * 
  * Licensed under The MIT License
  * Redistributions of files must retain the above copyright notice.
  *
- * @copyright 2012, Maldicore Group Pvt Ltd
- * @link      https://github.com/Maldicore/Backups
- * @package   plugns.Backups
+ * @copyright 2014
+ * @author    Cassandre CANTET
+ * @link      https://github.com/ccantet/cakebackup
+ * @package   plugins.Backups
  * @license   MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 App::uses('CakeSchema', 'Model');
